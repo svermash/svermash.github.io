@@ -1,0 +1,28 @@
+ul{
+    list-style-type: disc;
+    padding-left: 30px;
+
+}
+b{
+    padding-left: 2px;
+}
+details{
+    padding-left: 2px;
+}
+summary{
+    color: brown;
+}
+
+.sub-hr{
+    height: 2px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+}
+.numbered ol {
+  list-style: decimal;
+  padding-left: 30px;
+}
+
+.practicals{
+    color: green;
+}
