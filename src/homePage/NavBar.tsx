@@ -31,7 +31,8 @@ export default function NavBar(){
                     <li><NavLink to="/about" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>ABOUT</NavLink></li>
                     <li><NavLink to="/contact" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>CONTACT</NavLink></li>
                     <li><NavLink to="/details" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>DETAILS</NavLink></li>
-                    <li><NavLink to="/mca" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>MCA</NavLink></li>
+                    {/* <li><NavLink to="/mca" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>MCA</NavLink></li> */}
+                    <li><NavLink to="/graphs" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>GRAPHS</NavLink></li>
                     <li><NavLink to="/sorting" className={({ isActive }) => isActive ? "active-link" : ""} onClick={() => setMenuOpen(false)}>SORTING</NavLink></li>
                     </ul>
 

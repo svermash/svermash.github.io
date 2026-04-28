@@ -98,7 +98,7 @@ export default function TheGraph() {
     return (
         <div className="whole-body">
             <div className='Tchart-box'>
-                <p>Bsc_CS_final</p>
+                {/* <p>Bsc_CS_final</p> */}
                 <Line data={data} options={options as any} />
             </div>
         </div>
