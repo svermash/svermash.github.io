@@ -378,7 +378,7 @@ export default function Sorting() {
         </button>
         {foundIndex !== -1 && (
           <span style={{ color: "green", fontWeight: "bold" }}>
-            Found at position {foundIndex + 1}!
+            Found at position {students.length - foundIndex}
           </span>
         )}
         {!isSearching && foundIndex === -1 && currentSearchIndex === -1 && searchRoll && (
