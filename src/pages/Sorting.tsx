@@ -10,7 +10,7 @@ import {
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import { Bar } from 'react-chartjs-2';
 import { useState } from 'react';
-import sourceDATA from "../data/shuffled_DATA.json";
+import sourceDATA from "../data/sem2_final.json";
 ChartJS.register(
   CategoryScale,
   LinearScale,
